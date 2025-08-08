@@ -1,0 +1,68 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chip Dickles</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/logo.svg">
+  <script defer src="https://kit.fontawesome.com/a2e0e6fd3f.js" crossorigin="anonymous"></script>
+  <script defer src="assets/js/main.js"></script>
+  <meta name="description" content="Chip Dickles — forecasts, shenanigans, and weather chaos.">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src="assets/img/logo.svg" alt="Chip Dickles logo">
+      <div>
+        <div class="badge" id="site-tagline">Forecasts. Shenanigans. Lightning-speed vibes.</div>
+        <div style="font-weight:900;font-size:18px" id="site-title">Chip Dickles</div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./social.html">Social Hub</a>
+      <a href="#weather">Weather</a>
+      <a href="#tides">Tides</a>
+      <a href="#news">News</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <span class="badge">Welcome to the Chaos</span>
+      <h1>Weather, but make it <span style="color:var(--accent)">entertaining</span>.</h1>
+      <p class="subtitle">Live conditions where you are, tide links, and the latest weather news — all wrapped in Chip’s ridiculous charm.</p>
+      <div class="cta">
+        <a class="btn" href="./social.html">Find Chip Everywhere</a>
+        <a class="btn ghost" href="#news">Weather News</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Live Weather</h3>
+      <div id="weather-out">Grant location permission to load current conditions.</div>
+    </div>
+  </section>
+
+  <section id="tides" class="section">
+    <h2>Tide Charts</h2>
+    <div id="tides-wrap"></div>
+  </section>
+
+  <section id="news" class="section">
+    <h2>Weather News Feed</h2>
+    <div id="news-out" class="cards"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="year"></span> Chip Dickles. All rights reserved.</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

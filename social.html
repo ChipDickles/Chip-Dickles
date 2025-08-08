@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chip Dickles — Social Hub</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/logo.svg">
+  <script defer src="https://kit.fontawesome.com/a2e0e6fd3f.js" crossorigin="anonymous"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src="assets/img/logo.svg" alt="Chip Dickles logo">
+      <div>
+        <div class="badge" id="site-tagline">Forecasts. Shenanigans. Lightning-speed vibes.</div>
+        <div style="font-weight:900;font-size:18px" id="site-title">Chip Dickles</div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./social.html">Social Hub</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <h1>Social Hub</h1>
+    <p class="subtitle">All Chip. All platforms. Tap a link or scan a QR.</p>
+    <div id="social-grid" class="social-grid"></div>
+    <p class="notice">Edit your handles in <code>config/site.json</code> and the links & QR codes update automatically.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="year"></span> Chip Dickles. All rights reserved.</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
