@@ -1,0 +1,12 @@
+
+<svg width="240" height="60" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a7cff"/>
+      <stop offset="1" stop-color="#5ec3ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="240" height="60" rx="10" ry="10" fill="#0b1026"/>
+  <text x="20" y="38" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="28" fill="#ffd400" letter-spacing="1.5">CHIP DICKLES</text>
+  <path d="M210 12 l8 0 -6 16 10 0 -20 22 6 -16 -10 0z" fill="url(#g)" />
+</svg>

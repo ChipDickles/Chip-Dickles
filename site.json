@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "siteTitle": "Chip Dickles",
+    "tagline": "Forecasts. Shenanigans. Lightning-speed vibes.",
+    "primaryColor": "#0a7cff",
+    "accentColor": "#ffd400",
+    "darkBg": "#0a0f1c"
+  },
+  "social": {
+    "tiktok": "chipdickles",
+    "instagram": "chipdickles",
+    "youtube": "chipdickles",
+    "facebook": "chipdickles",
+    "threads": "chipdickles",
+    "x": "chipdickles",
+    "twitch": "",
+    "discord": "",
+    "email": "hello@chipdickles.com",
+    "linktree": ""
+  },
+  "news": {
+    "rss": [
+      "https://www.weather.gov/rss_page.php?site_name=nws",
+      "https://www.nhc.noaa.gov/gtwo.xml"
+    ]
+  },
+  "tides": {
+    "stationUrl": "https://tidesandcurrents.noaa.gov/",
+    "note": "Set this to a specific station URL if you want a direct embed or link."
+  }
+}
